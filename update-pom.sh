@@ -30,6 +30,6 @@ paths=("part13-Part13_01.MyFirstApplication"
 for i in ${!paths[@]};
 do
  #echo ${paths[$i]}
- awk 'NR==56{print "\t\t<configuration>\n\t\t\t<source>1.8</source>\n\t\t\t<target>1.8</target>\n\t\t</configuration>"}1' ${paths[$i]} > temp
+ awk 'NR==56{print "\t\t\t\t<configuration>\n\t\t\t\t\t<source>1.8</source>\n\t\t\t\t\t<target>1.8</target>\n\t\t\t\t</configuration>"}1' ${paths[$i]} > temp
  mv temp ${paths[$i]} 
 done
