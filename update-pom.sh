@@ -3,9 +3,9 @@
 # 
 #
 
-paths=("part13-Part13_01.MyFirstApplication"
-"part13-Part13_02.ButtonAndLabel"
-"part13-Part13_03.ButtonAndTextField"
+paths=("part13-Part13_01.MyFirstApplication/pom.xml"
+"part13-Part13_02.ButtonAndLabel/pom.xml"
+"part13-Part13_03.ButtonAndTextField/pom.xml"
 "part13-Part13_04.BorderPane/pom.xml"
 "part13-Part13_05.TextStatistics/pom.xml"
 "part13-Part13_06.Notifier/pom.xml"
